@@ -7,7 +7,7 @@
 @media screen and (min-width: 650px) {
     :root {
         --header-info-width: 70%;
-        --header-info-margin: 0px calc(70%/4);
+        --header-info-margin: 0px 15%;
     }
 }
 :root {
