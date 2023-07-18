@@ -1,6 +1,18 @@
+@media screen and (max-width: 650px) {
+    :root {
+        --header-info-width: 100%;
+        --header-info-margin: 0px;
+    }
+}
+@media screen and (min-width: 650px) {
+    :root {
+        --header-info-width: 70%;
+        --header-info-margin: 0px calc(70%/4);
+    }
+}
 :root {
-    --main-background-color: #000000;
-    --main-text-color: #ffffff;
+    --main-background-color: #100020;
+    --main-text-color: #eeffdd;
     --main-border-radius: 10px;
     --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --header-info-background-color: #ffab1970;

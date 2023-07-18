@@ -5,25 +5,29 @@
 }
 body {
     background-color: var(--main-background-color);
+    margin: 0;
 }
 h1 {
     margin: 0;
 }
 .header {
     text-align: center;
+}
+.header-heading {
     font-family: var(--header-font);
     font-size: 30px;
 }
-.header h1 {
+.header-heading h1 {
     margin: 20px 0px;
 }
-.header-info {
-    text-align: center;
-}
-.header-info h2 {
+.header-info h3 {
+    width: var(--header-info-width);
     background-color: var(--header-info-background-color);
-    width: 70%;
-    margin: 0 calc(70%/4);
+    margin: var(--header-info-margin);
     border-radius: var(--main-border-radius);
-    padding: 10px;
+    padding: 10px 0px;
+}
+
+.font-size-px50 {
+    font-size: 40px;
 }
