@@ -1,0 +1,29 @@
+@import "./var.css";
+
+* {
+    color: var(--main-text-color);
+}
+body {
+    background-color: var(--main-background-color);
+}
+h1 {
+    margin: 0;
+}
+.header {
+    text-align: center;
+    font-family: var(--header-font);
+    font-size: 30px;
+}
+.header h1 {
+    margin: 20px 0px;
+}
+.header-info {
+    text-align: center;
+}
+.header-info h2 {
+    background-color: var(--header-info-background-color);
+    width: 70%;
+    margin: 0 calc(70%/4);
+    border-radius: var(--main-border-radius);
+    padding: 10px;
+}
