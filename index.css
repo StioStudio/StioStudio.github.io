@@ -53,6 +53,10 @@ h1 {
         background-color: var(--header-info-background-color);
     }
 }
+.footer {
+    position: relative;
+    bottom: 0px;
+}
 
 .font-size-px50 {
     font-size: 40px;
