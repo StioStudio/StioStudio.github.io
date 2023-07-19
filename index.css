@@ -27,6 +27,32 @@ h1 {
     border-radius: var(--main-border-radius);
     padding: 10px 0px;
 }
+.header-image {
+    position: relative;
+    z-index: 2;
+    margin: 0px calc(50% - (var(--header-image-width)/2));
+    width: var(--header-image-width);
+    height: calc(var(--header-image-width) - 40px);
+    border-radius: 50% 50% 0 0;
+    background-color: var(--header-info-background-color);
+}
+.header-image img {
+    width: calc(var(--header-image-width) - 40px);
+    margin-top: 10px;
+}
+@media screen and (max-width: 275px) {
+    .header-image img {
+        width: calc(var(--header-image-width) - 100px);
+        margin-top: 10px;
+    }
+    .header-image {
+        margin: 0px calc(50% - ((var(--header-image-width) - 100px) / 2));
+        width: calc(var(--header-image-width) - 100px);
+        height: calc(var(--header-image-width) - 100px);
+        border-radius: 50% 50% 0 0;
+        background-color: var(--header-info-background-color);
+    }
+}
 
 .font-size-px50 {
     font-size: 40px;

@@ -1,7 +1,15 @@
+:root {
+    --main-background-color: #eeffdd;
+    --main-text-color: #100020;
+    --main-border-radius: 10px;
+    --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --header-info-background-color: #ffab1970;
+    --header-image-width: 200px;
+}
 @media screen and (max-width: 650px) {
     :root {
-        --header-info-width: 100%;
-        --header-info-margin: 0px;
+        --header-info-width: calc(100% - 50px);
+        --header-info-margin: 0px 25px;
     }
 }
 @media screen and (min-width: 650px) {
@@ -10,10 +18,9 @@
         --header-info-margin: 0px 15%;
     }
 }
-:root {
-    --main-background-color: #100020;
-    --main-text-color: #eeffdd;
-    --main-border-radius: 10px;
-    --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --header-info-background-color: #ffab1970;
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-background-color: #100020;
+        --main-text-color: #eeffdd;
+    }
 }
