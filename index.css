@@ -13,19 +13,19 @@ h1 {
 .header {
     text-align: center;
 }
-.header-heading {
+.box {
     font-family: var(--header-font);
     font-size: 30px;
-}
-.header-heading h1 {
-    margin: 20px 0px;
-}
-.header-info h3 {
-    width: var(--header-info-width);
+    width: calc(var(--header-info-width) - 30);
     background-color: var(--header-info-background-color);
     margin: var(--header-info-margin);
     border-radius: var(--main-border-radius);
-    padding: 10px 0px;
+    padding: 10px 30px;
+    box-shadow: 10px 10px 10px #000000;
+}
+.header-heading h1 {
+    margin: 20px 0px;
+    font-size: 70px;
 }
 .header-image {
     position: relative;
@@ -54,10 +54,21 @@ h1 {
     }
 }
 .footer {
-    position: relative;
+    background-color: var(--footer-background-color);
+    text-align: center;
+    /* position: relative;
     bottom: 0px;
+    height: 100px; */
+}
+.links {
+    display: contents;
+}
+.links img {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
 }
 
-.font-size-px50 {
+.font-size.px40 {
     font-size: 40px;
 }
