@@ -61,12 +61,25 @@ h1 {
     height: 100px; */
 }
 .links {
-    display: contents;
-}
-.links img {
+    display: inline-block;
     width: 80px;
     height: 80px;
     margin: 15px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.email {
+    background-image: url(./image/email.svg);
+}
+.github {
+    background-image: url(./image/github.svg);
+}
+.youtube {
+    background-image: url(./image/youtube.svg);
+}
+.scratch {
+    background-image: url(./image/scratch.svg);
 }
 
 .font-size.px40 {
