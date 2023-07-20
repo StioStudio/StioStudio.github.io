@@ -21,7 +21,9 @@ h1 {
     margin: var(--header-info-margin);
     border-radius: var(--main-border-radius);
     padding: 10px 30px;
-    box-shadow: 10px 10px 10px #000000;
+}
+.box-shadow {
+    filter: var(--main-box-shadow);
 }
 .header-heading h1 {
     margin: 20px 0px;
@@ -29,7 +31,6 @@ h1 {
 }
 .header-image {
     position: relative;
-    z-index: 2;
     margin: 0px calc(50% - (var(--header-image-width)/2));
     width: var(--header-image-width);
     height: calc(var(--header-image-width) - 40px);
@@ -61,16 +62,15 @@ h1 {
     height: 100px; */
 }
 .links {
-    display: inline-block;
+    display: contents;
+}
+.links svg {
     width: 80px;
     height: 80px;
     margin: 15px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: contain;
 }
-.email {
-    background-image: url(./image/email.svg);
+/* .email {
+    background: url(./image/email.svg);
 }
 .github {
     background-image: url(./image/github.svg);
@@ -80,7 +80,7 @@ h1 {
 }
 .scratch {
     background-image: url(./image/scratch.svg);
-}
+} */
 
 .font-size.px40 {
     font-size: 40px;

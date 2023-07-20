@@ -2,11 +2,19 @@
     --main-background-color: #eeffdd;
     --main-text-color: #100020;
     --main-border-radius: 10px;
+    --main-box-shadow: drop-shadow(10px 10px 7px var(--main-box-shadow-color));
+    --main-box-shadow-color: #10002080;
     --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --header-info-background-color: #ffab1970;
     --header-image-width: 200px;
     --footer-background-color: #4d97ff70;
-    --main-box-shadow: ;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-background-color: #100020;
+        --main-text-color: #eeffdd;
+        --main-box-shadow-color: #eeffdd80;
+    }
 }
 @media screen and (max-width: 650px) {
     :root {
@@ -18,11 +26,5 @@
     :root {
         --header-info-width: 70%;
         --header-info-margin: 0px 15% 20px 15%;
-    }
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --main-background-color: #100020;
-        --main-text-color: #eeffdd;
     }
 }
