@@ -1,9 +1,12 @@
 :root {
-    --main-background-color: #eeffdd;
-    --main-text-color: #100020;
+    --main-background-color: #efd;
+    --main-text-color: #102;
+    --main-link-color: #102;
+    --main-link-hover-color: #620;
     --main-border-radius: 10px;
+    --main-transition: 1s;
     --main-box-shadow: drop-shadow(10px 10px 7px var(--main-box-shadow-color));
-    --main-box-shadow-color: #10002080;
+    --main-box-shadow-color: #1028;
     --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --header-info-background-color: #ffab1970;
     --header-image-width: 200px;
@@ -11,18 +14,20 @@
 }
 @media (prefers-color-scheme: dark) {
     :root {
-        --main-background-color: #100020;
-        --main-text-color: #eeffdd;
-        --main-box-shadow-color: #eeffdd80;
+        --main-background-color: #102;
+        --main-text-color: #efd;
+        --main-link-color: #efd;
+        --main-link-hover-color: #fb9;
+        --main-box-shadow-color: #efd8;
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 770px) {
     :root {
         --header-info-width: calc(100% - 50px);
         --header-info-margin: 0px 25px 20px 25px;
     }
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 770px) {
     :root {
         --header-info-width: 70%;
         --header-info-margin: 0px 15% 20px 15%;

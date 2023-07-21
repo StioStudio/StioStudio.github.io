@@ -3,6 +3,9 @@
 * {
     color: var(--main-text-color);
 }
+.loaded * {
+    transition: var(--main-transition), color, background-color, fill, filter;
+}
 body {
     background-color: var(--main-background-color);
     margin: 0;
@@ -41,7 +44,7 @@ h1 {
     width: calc(var(--header-image-width) - 40px);
     margin-top: 10px;
 }
-@media screen and (max-width: 275px) {
+@media screen and (max-width: 300px) {
     .header-image img {
         width: calc(var(--header-image-width) - 100px);
         margin-top: 10px;
@@ -68,6 +71,12 @@ h1 {
     width: 80px;
     height: 80px;
     margin: 15px;
+    fill: var(--main-link-color);
+    transition: var(--main-transition) fill;
+}
+.links svg:hover {
+    fill: var(--main-link-hover-color);
+    transition: var(--main-transition) fill;
 }
 /* .email {
     background: url(./image/email.svg);
