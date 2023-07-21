@@ -1,10 +1,11 @@
 @import "./var.css";
 
 * {
+    font-family: var(--main-font);
     color: var(--main-text-color);
 }
 .loaded * {
-    transition: var(--main-transition), color, background-color, fill, filter;
+    transition: var(--main-transition);
 }
 body {
     background-color: var(--main-background-color);
@@ -17,7 +18,6 @@ h1 {
     text-align: center;
 }
 .box {
-    font-family: var(--header-font);
     font-size: 30px;
     width: calc(var(--header-info-width) - 30);
     background-color: var(--header-info-background-color);
@@ -27,6 +27,9 @@ h1 {
 }
 .box-shadow {
     filter: var(--main-box-shadow);
+}
+.box-shadow:hover {
+    filter: var(--main-box-shadow-hover);
 }
 .header-heading h1 {
     margin: 20px 0px;
@@ -60,9 +63,6 @@ h1 {
 .footer {
     background-color: var(--footer-background-color);
     text-align: center;
-    /* position: relative;
-    bottom: 0px;
-    height: 100px; */
 }
 .links {
     display: contents;
@@ -72,24 +72,10 @@ h1 {
     height: 80px;
     margin: 15px;
     fill: var(--main-link-color);
-    transition: var(--main-transition) fill;
 }
 .links svg:hover {
     fill: var(--main-link-hover-color);
-    transition: var(--main-transition) fill;
 }
-/* .email {
-    background: url(./image/email.svg);
-}
-.github {
-    background-image: url(./image/github.svg);
-}
-.youtube {
-    background-image: url(./image/youtube.svg);
-}
-.scratch {
-    background-image: url(./image/scratch.svg);
-} */
 
 .font-size.px40 {
     font-size: 40px;

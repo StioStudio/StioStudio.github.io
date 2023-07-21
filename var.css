@@ -4,10 +4,14 @@
     --main-link-color: #102;
     --main-link-hover-color: #620;
     --main-border-radius: 10px;
-    --main-transition: 1s;
-    --main-box-shadow: drop-shadow(10px 10px 7px var(--main-box-shadow-color));
+    --main-transition: 0.7s;
     --main-box-shadow-color: #1028;
-    --header-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    --main-box-shadow-color-hover: #102;
+    --main-box-shadow: drop-shadow(10px 10px 7px var(--main-box-shadow-color));
+    --main-box-shadow-hover: drop-shadow(12px 12px 10px var(--main-box-shadow-color-hover));
+    --main-font: cursive;
+    --header-box-shadow-color: #1028;
+    --header-box-shadow-color-hover: #102;
     --header-info-background-color: #ffab1970;
     --header-image-width: 200px;
     --footer-background-color: #4d97ff70;
@@ -19,6 +23,9 @@
         --main-link-color: #efd;
         --main-link-hover-color: #fb9;
         --main-box-shadow-color: #efd8;
+        --main-box-shadow-color-hover: #efd;
+        --header-box-shadow-color: #efd8;
+        --header-box-shadow-color-hover: #efd;
     }
 }
 @media screen and (max-width: 770px) {
