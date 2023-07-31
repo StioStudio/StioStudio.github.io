@@ -90,3 +90,31 @@ h1 {
 .display-flex {
     display: flex;
 }
+
+.projectButton {
+    background-color: var(--header-info-background-color);
+    border: 0;
+    border-radius: 10px;
+    width: 30px;
+}
+.projectButton-left {
+    margin: 0 10px 0 0;
+}
+.projectButton-right {
+    margin: 0 0 0 10px;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.slideBox {
+    width: 2100px;
+    height: 100px;
+    display: flex;
+    left: 0px;
+    position: relative;
+}
+.project {
+    margin: 0 10px 0 0;
+    width: 100px;
+    min-width: 100px;
+}

@@ -33,43 +33,14 @@
             </div>
         </div>
     </div>
-    <style>
-        .projectButton {
-            background-color: var(--header-info-background-color);
-            border: 0;
-            border-radius: 10px;
-            width: 30px;
-        }
-        .projectButton-left {
-            margin: 0 10px 0 0;
-        }
-        .projectButton-right {
-            margin: 0 0 0 10px;
-        }
-        .overflow-hidden {
-            overflow: hidden;
-        }
-        .slideBox {
-            width: 2100px;
-            height: 100px;
-            display: flex;
-            left: 0px;
-            position: relative;
-        }
-        .project {
-            margin: 0 10px 0 0;
-            width: 100px;
-            min-width: 100px;
-        }
-    </style>
-    <script>
-        function roughScale(x, base) {
-            const parsed = parseInt(x, base);
-            if (isNaN(parsed)) { return 0; }
-            return parsed;
-        }
-    </script>
     <div class="content">
+        <script>
+            function roughScale(x, base) {
+                const parsed = parseInt(x, base);
+                if (isNaN(parsed)) { return 0; }
+                return parsed;
+            }
+        </script>
         <div class="bigBox projectBox display-flex">
                 <button class="projectButton projectButton-left" onclick="
                 let remA = document.querySelector('.slideBox')
