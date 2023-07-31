@@ -43,14 +43,14 @@
         </script>
         <div class="bigBox projectBox display-flex">
                 <button class="projectButton projectButton-left" onclick="
-                let remA = document.querySelector('.slideBox')
+                let remA = document.querySelector('.slideBox-track')
                 let leftA = roughScale(remA.style.left.slice(0, remA.style.left.length -2), 10)
                 if (leftA < 0) {
                     remA.style.left = (leftA + 170) + 'px'   
                 }
                 "></button>
-            <div class="overflow-hidden">
-                <div class="slideBox">
+            <div class="slideBox-list overflow-hidden">
+                <div class="slideBox-track">
                     <div class="project box"></div>
                     <div class="project box"></div>
                     <div class="project box"></div>
@@ -67,9 +67,9 @@
                 </div>
             </div>
             <button class="projectButton projectButton-right" onclick="
-                let remB = document.querySelector('.slideBox')
+                let remB = document.querySelector('.slideBox-track')
                 let leftB = roughScale(remB.style.left.slice(0, remB.style.left.length -2), 10)
-                if (leftB > ((document.querySelector('.slideBox').children.length * -170) + document.querySelector('.overflow-hidden').getBoundingClientRect().width)) {
+                if (leftB > ((document.querySelector('.slideBox-track').children.length * -170) + document.querySelector('.overflow-hidden').getBoundingClientRect().width)) {
                     remB.style.left = (leftB - 170) + 'px'   
                 }
                 "></button>

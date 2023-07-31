@@ -94,7 +94,7 @@ h1 {
 .projectButton {
     background-color: var(--header-info-background-color);
     border: 0;
-    border-radius: 10px;
+    border-radius: var(--main-border-radius);
     width: 30px;
 }
 .projectButton-left {
@@ -106,7 +106,10 @@ h1 {
 .overflow-hidden {
     overflow: hidden;
 }
-.slideBox {
+.slideBox-list {
+    border-radius: var(--main-border-radius);
+}
+.slideBox-track {
     width: 2100px;
     height: 100px;
     display: flex;
