@@ -90,6 +90,12 @@ h1 {
 .display-flex {
     display: flex;
 }
+.overflow-overlay {
+    overflow: overlay;
+}
+.overflow-overlay::-webkit-scrollbar {
+    display: none;
+}
 
 .projectButton {
     background-color: var(--header-info-background-color);
