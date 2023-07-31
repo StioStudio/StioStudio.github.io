@@ -21,6 +21,13 @@ h1 {
     font-size: 30px;
     width: calc(var(--header-info-width) - 30);
     background-color: var(--header-info-background-color);
+    border-radius: var(--main-border-radius);
+    padding: 10px 30px;
+}
+.bigBox {
+    font-size: 30px;
+    width: calc(var(--header-info-width) - 30);
+    background-color: var(--header-info-background-color);
     margin: var(--header-info-margin);
     border-radius: var(--main-border-radius);
     padding: 10px 30px;
@@ -79,4 +86,7 @@ h1 {
 
 .font-size.px40 {
     font-size: 40px;
+}
+.display-flex {
+    display: flex;
 }
