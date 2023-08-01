@@ -1,5 +1,10 @@
 @import "./var.css";
 
+@font-face {
+    font-family: "Recursive";
+    src: local("Recursive"), url("https://assets.stio.studio/font/recursive.ttf");
+}
+
 * {
     font-family: var(--main-font);
     color: var(--main-text-color);

@@ -9,7 +9,7 @@
     --main-box-shadow-color-hover: #102;
     --main-box-shadow: drop-shadow(10px 10px 7px var(--main-box-shadow-color));
     --main-box-shadow-hover: drop-shadow(12px 12px 10px var(--main-box-shadow-color-hover));
-    --main-font: cursive;
+    --main-font: "Recursive", cursive;
     --header-box-shadow-color: #1028;
     --header-box-shadow-color-hover: #102;
     --header-info-background-color: #ffab1970;
