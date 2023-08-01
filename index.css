@@ -6,7 +6,7 @@
 }
 
 * {
-    font-family: "Recursive";
+    font-family: var(--main-font);
     color: var(--main-text-color);
 }
 .loaded * {
