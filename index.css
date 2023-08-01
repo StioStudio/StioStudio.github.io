@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "Recursive";
-    src: local("Recursive"), url("https://assets.stio.studio/font/recursive.ttf");
+    src: local("Recursive"), url("https://stio.studio/font.ttf");
 }
 
 * {
-    font-family: var(--main-font);
+    font-family: "Recursive";
     color: var(--main-text-color);
 }
 .loaded * {
