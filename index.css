@@ -32,6 +32,9 @@ h1 {
     border-radius: var(--main-border-radius);
     padding: 10px 30px;
 }
+.redBox {
+    background-color: var(--main-red);
+}
 .box-shadow {
     filter: var(--main-box-shadow);
 }
@@ -95,6 +98,15 @@ h1 {
 }
 .overflow-overlay::-webkit-scrollbar {
     display: none;
+}
+.red {
+    color: red;
+}
+.centerText {
+    text-align: center;
+}
+.xCenter {
+    margin: auto auto;
 }
 
 .projectButton {

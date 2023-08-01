@@ -15,6 +15,7 @@
     --header-info-background-color: #ffab1970;
     --header-image-width: 200px;
     --footer-background-color: #4d97ff70;
+    --main-red: #e257;
 }
 @media (prefers-color-scheme: dark) {
     :root {
