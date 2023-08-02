@@ -111,10 +111,19 @@ h1 {
     text-align: center;
 }
 .xCenter {
-    margin: auto auto;
+    margin: 0 auto;
 }
 .red-glow {
     filter: drop-shadow(0px 0px 5px red);
+}
+.width100per {
+    width: 100%;
+}
+.noMargin {
+    margin: 0;
+}
+.text-decoration-none {
+    text-decoration: none;
 }
 
 .projectButton {
@@ -124,10 +133,10 @@ h1 {
     width: 30px;
 }
 .projectButton-left {
-    margin: 0 10px 0 0;
+    margin: 0 10px 0 -10px;
 }
 .projectButton-right {
-    margin: 0 0 0 10px;
+    margin: 0 -10px 0 10px;
 }
 .overflow-hidden {
     overflow: hidden;
@@ -144,6 +153,24 @@ h1 {
 }
 .project {
     margin: 0 10px 0 0;
-    width: 100px;
-    min-width: 100px;
+    width: 160px;
+    min-width: 160px;
+    font-size: 30px;
+    background-color: var(--header-info-background-color);
+    border-radius: var(--main-border-radius);
+}
+.project-header {
+    margin: 5px 0;
+    height: 20px;
+    font-size: 20px;
+}
+.project-content {
+    height: 70px;
+    width: 160px;
+}
+.project-content img {
+    object-fit: cover;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: var(--main-border-radius);
 }

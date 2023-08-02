@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STIO</title>
-    <link rel="stylesheet" href="./index.css">
     <meta property='og:description' content="stio's personal website" />
     <meta property='og:title' content='STIO' />
     <meta property='og:image' content='https://assets.stio.studio/logo/stio/transparent/1600x1600.gif' />
@@ -14,9 +13,12 @@
     <meta property='og:image:width' content='300' />
     <meta property='og:image:height' content='300' />
     <meta property='og:image:alt' content="A image of stio's pfp" />
+    
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://assets.stio.studio/functions.js"></script>
+    <!-- <script src="/assets/functions.js"></script> -->
 </head>
 <body onload="document.querySelector('html').classList.add('loaded');">
-    <nav></nav>
     <div class="header">
         <div class="header-heading">
             <h1>STIO</h1>
@@ -33,46 +35,44 @@
         </div>
     </div>
     <div class="content">
-        <script>
-            function roughScale(x, base) {
-                const parsed = parseInt(x, base);
-                if (isNaN(parsed)) { return 0; }
-                return parsed;
-            }
-        </script>
-        <div class="bigBox projectBox display-flex box-shadow">
-                <button class="projectButton projectButton-left" onclick="
-                let remA = document.querySelector('.slideBox-track')
-                let leftA = roughScale(remA.style.left.slice(0, remA.style.left.length -2), 10)
-                if (leftA < 0) {
-                    remA.style.left = (leftA + 170) + 'px'   
-                }
-                "></button>
-            <div class="slideBox-list overflow-hidden">
-                <div class="slideBox-track">
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                    <div class="project box"></div>
-                </div>
+        <!-- <div class="bigBox projectBox box-shadow">
+            <div class=" bigBox-header centerText">
+                <h3 class="noMargin">Scratch Projects</h3>
             </div>
-            <button class="projectButton projectButton-right" onclick="
-                let remB = document.querySelector('.slideBox-track')
-                let leftB = roughScale(remB.style.left.slice(0, remB.style.left.length -2), 10)
-                if (leftB > ((document.querySelector('.slideBox-track').children.length * -170) + document.querySelector('.overflow-hidden').getBoundingClientRect().width)) {
-                    remB.style.left = (leftB - 170) + 'px'   
-                }
+            <div class="bigBox-content display-flex width100per">
+                <button class="projectButton projectButton-left" onclick="
+                    let remA = document.querySelector('.slideBox-track')
+                    let leftA = roughScale(remA.style.left.slice(0, remA.style.left.length -2), 10)
+                    if (leftA < 0) {
+                        remA.style.left = (leftA + 170) + 'px'   
+                    }
                 "></button>
-        </div>
+                <div class="slideBox-list overflow-hidden width100per">
+                    <div class="slideBox-track">
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                        <div class="project box"></div>
+                    </div>
+                </div>
+                <button class="projectButton projectButton-right" onclick="
+                    let remB = document.querySelector('.slideBox-track')
+                    let leftB = roughScale(remB.style.left.slice(0, remB.style.left.length -2), 10)
+                    if (leftB > ((document.querySelector('.slideBox-track').children.length * -170) + document.querySelector('.overflow-hidden').getBoundingClientRect().width)) {
+                        remB.style.left = (leftB - 170) + 'px'   
+                    }
+                "></button>
+            </div>
+        </div> -->
     </div>
     <div class="footer bigBox box-shadow overflow-overlay">
         <a class="links email" href="mailto:hello@stio.studio"><svg fill="currentColor" viewBox="0 0 24 24" height="32" width="32" xmlns="http://www.w3.org/2000/svg"><path xmlns="http://www.w3.org/2000/svg" d="M2 6C2 4.89543 2.89543 4 4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20H4C2.89543 20 2 19.1046 2 18V6ZM5.51859 6L12 11.6712L18.4814 6H5.51859ZM20 7.32877L12.6585 13.7526C12.2815 14.0825 11.7185 14.0825 11.3415 13.7526L4 7.32877V18H20V7.32877Z"></path></svg></a>
@@ -83,3 +83,41 @@
     </div>
 </body>
 </html>
+<script type="module">
+    addProjectBox("afterBegin", "Test", [
+        {
+            _projectHeader: "stio.studio",
+            _projectContentImageLink: "https://assets.stio.studio/logo/stio/transparent/1600x1600.gif",
+            _projectContentImageLinkAlt: "stio.studio",
+            _link: "https://stio.studio/"
+        },
+        {
+            _projectHeader: "404",
+            _projectContentImageLink: "https://assets.stio.studio/logo/stio/404/1600x1600.png",
+            _projectContentImageLinkAlt: "stio.studio",
+            _link: "https://stio.studio/404"
+        },
+        {
+            _projectHeader: "assets",
+            _projectContentImageLink: "https://assets.stio.studio/logo/stio/404/1600x1600.gif",
+            _projectContentImageLinkAlt: "assets.stio.studio",
+            _link: "https://assets.stio.studio/"
+        },
+        {
+            _projectHeader: "Cat Adventures",
+            _projectContentImageLink: "https://cdn2.scratch.mit.edu/get_image/project/826059152_144x108.png",
+            _projectContentImageLinkAlt: "IDK",
+            _link: "https://scratch.mit.edu/projects/826059152/"
+        },
+        {
+            _projectHeader: "TuneShare",
+            _projectContentImageLink: "https://cdn2.scratch.mit.edu/get_image/project/863714854_144x108.png",
+            _projectContentImageLinkAlt: "IDK",
+            _link: "https://scratch.mit.edu/projects/863714854/"
+        }
+    ])
+    // addProjectBox("afterBegin", "GitHub Projects")
+    // addProjectBox("afterBegin", "Scratch Projects")
+    // let rem = await(await fetch("https://api.github.com/repos/stiostudio/assets/git/trees/main?recursive=1")).json()
+    // console.log(createProjectInfo.github(rem))
+</script>
