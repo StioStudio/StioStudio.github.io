@@ -29,13 +29,13 @@
         --header-box-shadow-color-hover: #efd;
     }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 940px) {
     :root {
         --header-info-width: calc(100% - 50px);
         --header-info-margin: 0px 25px 20px 25px;
     }
 }
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 940px) {
     :root {
         --header-info-width: 70%;
         --header-info-margin: 0px 15% 20px 15%;
