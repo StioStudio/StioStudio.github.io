@@ -25,14 +25,14 @@ h1 {
 .box {
     font-size: 30px;
     width: calc(var(--header-info-width) - 30);
-    background-color: var(--header-info-background-color);
+    background-color: var(--orange-background-color);
     border-radius: var(--main-border-radius);
     padding: 10px 30px;
 }
 .bigBox {
     font-size: 30px;
     width: calc(var(--header-info-width) - 30);
-    background-color: var(--header-info-background-color);
+    background-color: var(--orange-background-color);
     margin: var(--header-info-margin);
     border-radius: var(--main-border-radius);
     padding: 10px 30px;
@@ -56,7 +56,7 @@ h1 {
     width: var(--header-image-width);
     height: calc(var(--header-image-width) - 40px);
     border-radius: 50% 50% 0 0;
-    background-color: var(--header-info-background-color);
+    background-color: var(--orange-background-color);
 }
 .header-image img {
     width: calc(var(--header-image-width) - 40px);
@@ -72,7 +72,7 @@ h1 {
         width: calc(var(--header-image-width) - 100px);
         height: calc(var(--header-image-width) - 100px);
         border-radius: 50% 50% 0 0;
-        background-color: var(--header-info-background-color);
+        background-color: var(--orange-background-color);
     }
 }
 .footer {
@@ -127,7 +127,7 @@ h1 {
 }
 
 .projectButton {
-    background-color: var(--header-info-background-color);
+    background-color: var(--orange-background-color);
     border: 0;
     border-radius: var(--main-border-radius);
     width: 30px;
@@ -151,24 +151,49 @@ h1 {
     left: 0px;
     position: relative;
 }
-.project {
+
+.projectType-A .project {
     margin: 0 10px 0 0;
     width: 160px;
     min-width: 160px;
     font-size: 30px;
-    background-color: var(--header-info-background-color);
+    background-color: var(--orange-background-color);
     border-radius: var(--main-border-radius);
 }
-.project-header {
+.projectType-A .project-header {
     margin: 5px 0;
     height: 20px;
-    font-size: 20px;
 }
-.project-content {
+.projectType-A .project-content {
     height: 70px;
     width: 160px;
 }
-.project-content img {
+.projectType-A .project-content img {
+    object-fit: cover;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: var(--main-border-radius);
+}
+
+.projectType-B .project {
+    display: flex;
+    margin: 0 10px 0 0;
+    height: 100%;
+    width: 160px;
+    min-width: 160px;
+    font-size: 30px;
+    background-color: var(--orange-background-color);
+    border-radius: var(--main-border-radius);
+}
+.projectType-B .project-header {
+    margin: auto 0;
+}
+.projectType-B .project-content {
+    margin: auto 0;
+    height: 70px;
+    width: 160px;
+}
+.projectType-B .project-content img {
     object-fit: cover;
     height: 70px;
     margin: 0 auto;
