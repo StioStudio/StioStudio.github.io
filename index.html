@@ -15,8 +15,8 @@
     <meta property='og:image:alt' content="A image of stio's pfp" />
     
     <link rel="stylesheet" href="./index.css">
-    <script src="https://assets.stio.studio/functions.js"></script>
-    <!-- <script src="/assets/functions.js"></script> -->
+    <!-- <script src="https://assets.stio.studio/functions.js"></script> -->
+    <script src="/assets/functions.js"></script>
 </head>
 <body onload="document.querySelector('html').classList.add('loaded');">
     <div class="header">
@@ -85,7 +85,7 @@
 </html>
 <script type="module">
     // let rem = await(await fetch("/assets/projects.json")).json()
-    let rem = await(await fetch("https://assets.stio.studio/projects.json")).json()
+    let rem = await(await fetch("./projects.json")).json()
     for (let i = rem.length - 1; i > -1; i--) {
         addProjectBox(rem[i][0]._InsertPosition, rem[i][0]._projectBoxHeader, rem[i][1])
     }
