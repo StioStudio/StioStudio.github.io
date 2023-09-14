@@ -14,6 +14,28 @@
                 "_projectType": "A"
             },
             {
+                "_projectHeader": "Assets",
+                "_projectContentImageLink": "https://asset.stio.studio/logo/stio/404/1600x1600.gif",
+                "_projectContentImageLinkAlt": "stio's 404 gif",
+                "_link": "https://asset.stio.studio/",
+                "_projectType": "A"
+            },
+            {
+                "_projectHeader": "Docs",
+                "_link": "https://docs.stio.studio",
+                "_projectType": "C"
+            },
+            {
+                "_projectHeader": "Wiki",
+                "_link": "https://wiki.stio.studio",
+                "_projectType": "C"
+            },
+            {
+                "_projectHeader": "Aioewa",
+                "_link": "https://aioewa.stio.studio",
+                "_projectType": "C"
+            },
+            {
                 "_projectHeader": "Main Page",
                 "_projectContentImageLink": "https://asset.stio.studio/logo/stio/transparent/1600x1600.gif",
                 "_projectContentImageLinkAlt": "stio's pfp",
@@ -25,13 +47,6 @@
                 "_projectContentImageLink": "https://asset.stio.studio/logo/stio/404/1600x1600.png",
                 "_projectContentImageLinkAlt": "stio's 404 png",
                 "_link": "https://stio.studio/404",
-                "_projectType": "A"
-            },
-            {
-                "_projectHeader": "Assets",
-                "_projectContentImageLink": "https://asset.stio.studio/logo/stio/404/1600x1600.gif",
-                "_projectContentImageLinkAlt": "stio's 404 gif",
-                "_link": "https://asset.stio.studio/",
                 "_projectType": "A"
             },
             {
@@ -119,6 +134,19 @@
                 "_projectContentImageLinkAlt": "YouTube Tumbnail",
                 "_link": "https://www.youtube.com/shorts/_YtD8_Iz7ok",
                 "_projectType": "B"
+            }
+        ]
+    ],
+    [
+        {
+            "_projectBoxHeader": "Exstra",
+            "_InsertPosition": "afterBegin"
+        },
+        [
+            {
+                "_projectHeader": "Credits",
+                "_link": "https://credits.stio.studio/",
+                "_projectType": "C"
             }
         ]
     ]
