@@ -21,21 +21,6 @@
                 "_projectType": "A"
             },
             {
-                "_projectHeader": "Docs",
-                "_link": "https://docs.stio.studio",
-                "_projectType": "C"
-            },
-            {
-                "_projectHeader": "Wiki",
-                "_link": "https://wiki.stio.studio",
-                "_projectType": "C"
-            },
-            {
-                "_projectHeader": "Aioewa",
-                "_link": "https://aioewa.stio.studio",
-                "_projectType": "C"
-            },
-            {
                 "_projectHeader": "Main Page",
                 "_projectContentImageLink": "https://asset.stio.studio/logo/stio/transparent/1600x1600.gif",
                 "_projectContentImageLinkAlt": "stio's pfp",
@@ -143,6 +128,21 @@
             "_InsertPosition": "afterBegin"
         },
         [
+            {
+                "_projectHeader": "Docs",
+                "_link": "https://docs.stio.studio",
+                "_projectType": "C"
+            },
+            {
+                "_projectHeader": "Wiki",
+                "_link": "https://wiki.stio.studio",
+                "_projectType": "C"
+            },
+            {
+                "_projectHeader": "Aioewa",
+                "_link": "https://aioewa.stio.studio",
+                "_projectType": "C"
+            },
             {
                 "_projectHeader": "Credits",
                 "_link": "https://credits.stio.studio/",
