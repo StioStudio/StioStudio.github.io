@@ -124,7 +124,7 @@
     ],
     [
         {
-            "_projectBoxHeader": "Sup Domain Share",
+            "_projectBoxHeader": "Sub Domain Share",
             "_InsertPosition": "afterBegin"
         },
         [
@@ -147,7 +147,7 @@
     ],
     [
         {
-            "_projectBoxHeader": "Exstra",
+            "_projectBoxHeader": "Extra",
             "_InsertPosition": "afterBegin"
         },
         [
