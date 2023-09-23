@@ -237,7 +237,7 @@ h1 {
     height: 42.2px;
     aspect-ratio: 1/1;
     text-decoration: #ffffffff;
-    background-image: url(/assets/icon/anchorjs-link.svg);
+    background-image: url(https://asset.stio.studio/icon/anchorjs-link.svg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
