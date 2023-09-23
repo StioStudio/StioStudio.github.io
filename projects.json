@@ -3,6 +3,7 @@
     [
         {
             "_projectBoxHeader": "Website Projects",
+            "_id": "Website-Projects",
             "_InsertPosition": "afterBegin"
         },
         [
@@ -46,6 +47,7 @@
     [
         {
             "_projectBoxHeader": "Fun Scratch Projects",
+            "_id": "Fun-Scratch-Projects",
             "_InsertPosition": "afterBegin"
         },
         [
@@ -103,15 +105,14 @@
     [
         {
             "_projectBoxHeader": "YouTube Videos",
+            "_id": "YouTube-Videos",
             "_InsertPosition": "afterBegin"
         },
         [
             {
                 "_projectHeader": "Overwatch 2: best Sigma ranked game",
-                "_projectContentImageLink": "https://i9.ytimg.com/vi/zYuqk5x3e7I/mqdefault.jpg?v=645be9d7&sqp=COyQsKYG&rs=AOn4CLCCiKbbiqdNkHY4xYuywvHPrhMXFQ",
-                "_projectContentImageLinkAlt": "YouTube Tumbnail",
                 "_link": "https://youtu.be/zYuqk5x3e7I",
-                "_projectType": "A"
+                "_projectType": "C"
             },
             {
                 "_projectHeader": "Nature: Norway (part 10)",
@@ -125,6 +126,7 @@
     [
         {
             "_projectBoxHeader": "Sub Domain Share",
+            "_id": "Sub-Domain-Share",
             "_InsertPosition": "afterBegin"
         },
         [
@@ -148,6 +150,7 @@
     [
         {
             "_projectBoxHeader": "Extra",
+            "_id": "Extra",
             "_InsertPosition": "afterBegin"
         },
         [

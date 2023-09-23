@@ -218,3 +218,35 @@ h1 {
 .projectType-C .project-content {
     display: none;
 }
+
+.bigBox-header {
+    display: flex;
+    width: 100%;
+}
+.bigBox-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.bigBox-header h3 {
+    margin-left: auto;
+}
+
+.anchorjs-link {
+    display: block;
+    height: 42.2px;
+    aspect-ratio: 1/1;
+    text-decoration: #ffffffff;
+    background-image: url(/assets/icon/anchorjs-link.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-left: auto;
+    opacity: 0.1;
+}
+.anchorjs-link:hover {
+    opacity: 0.5;
+}
+.anchorjs-link.active {
+    opacity: 1;
+}
