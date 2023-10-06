@@ -131,6 +131,11 @@
         },
         [
             {
+                "_projectHeader": "share",
+                "_link": "https://share.stio.studio/",
+                "_projectType": "C"
+            },
+            {
                 "_projectHeader": "stio_studio",
                 "_link": "https://stio_studio.stio.studio/",
                 "_projectType": "C"
