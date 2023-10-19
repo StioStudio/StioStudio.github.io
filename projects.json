@@ -136,6 +136,11 @@
                 "_projectType": "C"
             },
             {
+                "_projectHeader": "programORdie",
+                "_link": "https://pod.stio.studio/",
+                "_projectType": "C"
+            },
+            {
                 "_projectHeader": "stio_studio",
                 "_link": "https://stio_studio.stio.studio/",
                 "_projectType": "C"
