@@ -35,22 +35,28 @@
 
 </head>
 <body onload="document.querySelector('html').classList.add('loaded');">
+    <script type="module" src="./index.js"></script>
     <div class="header">
         <div class="header-heading">
-            <h1>STIO</h1>
+            <h1><tra>STIO</tra></h1>
         </div>
         <div class="box-shadow">
             <div class="header-image">
                 <img src="https://asset.stio.studio/logo/stio/transparent/2000x2000.gif" alt="stio-pfp">
             </div>
             <div class="header-info bigBox overflow-overlay">
-                <div class="font-size px40">Hello there 😺</div>
-                I am a dev that loves technical stuff!<br>
-                This is my personal website
+                <div class="font-size px40"><tra>Hello there 😺</tra></div>
+                <tra>I am a dev that loves technical stuff!</tra><br>
+                <tra>This is my personal website</tra>
             </div>
         </div>
     </div>
     <div class="content">
+        <noscript>
+            <div class="bigBox redBox centerText box-shadow">
+                <h1>Content needs JavaScript to be displayed</h1>
+            </div>
+        </noscript>
         <!-- <div class="bigBox projectBox box-shadow">
             <div class=" bigBox-header centerText">
                 <h3 class="noMargin">Scratch Projects</h3>
@@ -99,8 +105,3 @@
     </div>
 </body>
 </html>
-<script type="module">
-    // let rem = await(await fetch("/assets/projects.json")).json()
-    let rem = await(await fetch("./projects.json")).json()
-    contentCreate(rem)
-</script>
