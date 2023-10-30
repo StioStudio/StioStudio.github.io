@@ -2,9 +2,9 @@
     
     [
         {
+            "_type": "A",
             "_projectBoxHeader": "<tra>Website Projects</tra>",
-            "_id": "Website-Projects",
-            "_InsertPosition": "afterBegin"
+            "_id": "Website-Projects"
         },
         [
             {
@@ -51,9 +51,9 @@
     ],
     [
         {
+            "_type": "A",
             "_projectBoxHeader": "<tra>Fun Scratch Projects</tra>",
-            "_id": "Fun-Scratch-Projects",
-            "_InsertPosition": "afterBegin"
+            "_id": "Fun-Scratch-Projects"
         },
         [
             {
@@ -109,9 +109,9 @@
     ],
     [
         {
+            "_type": "A",
             "_projectBoxHeader": "<tra>YouTube Videos</tra>",
-            "_id": "YouTube-Videos",
-            "_InsertPosition": "afterBegin"
+            "_id": "YouTube-Videos"
         },
         [
             {
@@ -130,9 +130,9 @@
     ],
     [
         {
+            "_type": "A",
             "_projectBoxHeader": "<tra>Sub Domain Share</tra>",
-            "_id": "Sub-Domain-Share",
-            "_InsertPosition": "afterBegin"
+            "_id": "Sub-Domain-Share"
         },
         [
             {
@@ -164,9 +164,9 @@
     ],
     [
         {
+            "_type": "A",
             "_projectBoxHeader": "<tra>Extra</tra>",
-            "_id": "Extra",
-            "_InsertPosition": "afterBegin"
+            "_id": "Extra"
         },
         [
             {
