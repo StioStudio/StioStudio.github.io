@@ -2,4 +2,4 @@
 let rem = await(await fetch("./projects.json")).json()
 contentCreate(rem)
 
-await translationSetup()
+await translationSetup(true)
