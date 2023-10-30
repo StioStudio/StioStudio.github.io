@@ -1,107 +1,104 @@
-{  
+{
+  "404": {
+      "message": "404"
+  },
   "STIO": {
-    "message": "STIO"
+      "message": "STIO"
+  },
+  "Last Updated: ": {
+      "message": "Last Updated: "
   },
   "Hello there 😺": {
-    "message": "Hello there 😺"
+      "message": "Hello there 😺"
   },
   "I am a dev that loves technical stuff!": {
-    "message": "I am a dev that loves technical stuff!"
+      "message": "I am a dev that loves technical stuff!"
   },
   "This is my personal website": {
-    "message": "This is my personal website"
+      "message": "This is my personal website"
   },
   "Website Projects": {
-    "message": "Website Projects"
+      "message": "Website Projects"
   },
   "Settings": {
-    "message": "Settings"
+      "message": "Settings"
   },
   "Projects": {
-    "message": "Projects"
+      "message": "Projects"
   },
   "Assets": {
-    "message": "Assets"
+      "message": "Assets"
   },
   "Main Page": {
-    "message": "Main Page"
-  },
-  "404": {
-    "message": "404"
+      "message": "Main Page"
   },
   "Chat": {
-    "message": "Chat"
+      "message": "Chat"
   },
   "Fun Scratch Projects": {
-    "message": "Fun Scratch Projects"
+      "message": "Fun Scratch Projects"
   },
   "Pumpkin Peril": {
-    "message": "Pumpkin Peril"
+      "message": "Pumpkin Peril"
   },
   "ScratchOS 3.0": {
-    "message": "ScratchOS 3.0"
+      "message": "ScratchOS 3.0"
   },
   "Verlet ball pool!!!": {
-    "message": "Verlet ball pool!!!"
+      "message": "Verlet ball pool!!!"
   },
   "Scratch 4.0 Concept": {
-    "message": "Scratch 4.0 Concept"
+      "message": "Scratch 4.0 Concept"
   },
   "TuneShare": {
-    "message": "TuneShare"
+      "message": "TuneShare"
   },
   "3D Minecraft v3.0": {
-    "message": "3D Minecraft v3.0"
+      "message": "3D Minecraft v3.0"
   },
   "Cat Adventures": {
-    "message": "Cat Adventures"
+      "message": "Cat Adventures"
   },
   "YouTube Videos": {
-    "message": "YouTube Videos"
+      "message": "YouTube Videos"
   },
   "Overwatch 2: best Sigma ranked game": {
-    "message": "Overwatch 2: best Sigma ranked game"
+      "message": "Overwatch 2: best Sigma ranked game"
   },
   "Nature: Norway (part 10)": {
-    "message": "Nature: Norway (part 10)"
+      "message": "Nature: Norway (part 10)"
   },
   "Sub Domain Share": {
-    "message": "Sub Domain Share"
+      "message": "Sub Domain Share"
   },
   "share": {
-    "message": "share"
+      "message": "share"
   },
   "programORdie": {
-    "message": "programORdie"
+      "message": "programORdie"
   },
   "stio_studio": {
-    "message": "stio_studio"
+      "message": "stio_studio"
   },
   "Nikeedev": {
-    "message": "Nikeedev"
+      "message": "Nikeedev"
   },
   "Sychamis": {
-    "message": "Sychamis"
+      "message": "Sychamis"
   },
   "Extra": {
-    "message": "Extra"
+      "message": "Extra"
   },
   "Docs": {
-    "message": "Docs"
+      "message": "Docs"
   },
   "Wiki": {
-    "message": "Wiki"
+      "message": "Wiki"
   },
   "Aioewa": {
-    "message": "Aioewa"
+      "message": "Aioewa"
   },
   "Credits": {
-    "message": "Credits"
-  },
-  "zero": {
-    "message": "zero"
-  },
-  "a": {
-    "message": "a"
+      "message": "Credits"
   }
 }
