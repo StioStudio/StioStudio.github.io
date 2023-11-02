@@ -112,5 +112,17 @@
     },
     "File": {
         "message": "Fil"
+    },
+    "Hello there 🤖": {
+        "message": "Hallo der 🤖"
+    },
+    "Seems like you went some where wrong": {
+        "message": "Ser ut som du har tatt ein feil sving ein plass"
+    },
+    "You can report any issue ": {
+        "message": "Du kan raportere feil "
+    },
+    "here": {
+        "message": "her"
     }
 }

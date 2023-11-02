@@ -103,5 +103,17 @@
     },
     "Credits": {
         "message": "Credits"
+    },
+    "Hello there 🤖": {
+        "message": "Hello there 🤖"
+    },
+    "Seems like you went some where wrong": {
+        "message": "Seems like you went some where wrong"
+    },
+    "You can report any issue ": {
+        "message": "You can report any issue "
+    },
+    "here": {
+        "message": "here"
     }
 }
