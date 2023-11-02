@@ -1,1 +1,1 @@
-await translationSetup({_localesDir: "/stiostudio.github.io/locales/"})
+await translationSetup({_localesDir: "/locales/"})
