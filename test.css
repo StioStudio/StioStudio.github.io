@@ -1,0 +1,7 @@
+@import "./var.css";
+
+.background {
+    background-color: var(--background-color);
+}
+
+
