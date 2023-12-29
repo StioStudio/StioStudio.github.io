@@ -4,4 +4,4 @@ contentCreate(rem)
 
 await translationSetup(true)
 
-document.querySelector(".last-updated").innerHTML = await lastUpdated({path: "index.html"})
+await lastUpdated({path: "index.html"})
