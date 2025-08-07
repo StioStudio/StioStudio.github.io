@@ -1,0 +1,18 @@
+.system-menu {
+    display: inline-flex;
+}
+.system-menu .system-menu-button {
+	display: flex;
+	width: 47px;
+	height: 47px;
+	background-color: var(--a);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-right: 7px;
+}
+.system-menu .system-menu-button img {
+	margin: 7px;
+}
+.system-menu .system-menu-button.full img {
+    margin: 0;
+}
