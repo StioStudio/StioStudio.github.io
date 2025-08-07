@@ -15,6 +15,9 @@ export default {
 			precompress: false,
 			strict: true,
 		}),
+		prerender: {
+			handleHttpError: "warn"
+		}
 		// paths: {
 		// 	base: process.argv.includes("dev") ? "" : process.env.BASE_PATH,
 		// },
