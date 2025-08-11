@@ -50,12 +50,20 @@
 			{/each}
 		</div>
 	</div>
+	{#each Object.keys(apps) as app}
+		{#if apps[app].filterCategory.includes(data.category)}
+			<Css css={`#${app}:target ~ .picked-app-${app} {display: block}`} />
+			<style>
+			</style>
+			<div class="app-picked-nav" id={app}></div>
+		{/if}
+	{/each}
 	<div class="app-picker">
 		<div class="app-picker-scroll">
 			{#each Object.keys(apps) as app}
 				{#if apps[app].filterCategory.includes(data.category)}
 					<Css
-						css={`#${app}:target ~ .app-picker .picked-app-${app} {border: 7px solid var(--c-50);}`}
+						css={`#${app}:target ~ .app-picker .picked-app-${app} {border: 7px solid var(--c-50); --border: 8px;}`}
 					/>
 					<a
 						class="{apps[app].shortcut_image_add_padding
@@ -67,14 +75,6 @@
 			{/each}
 		</div>
 	</div>
-	{#each Object.keys(apps) as app}
-		{#if apps[app].filterCategory.includes(data.category)}
-			<Css css={`#${app}:target ~ .picked-app-${app} {display: block}`} />
-			<style>
-			</style>
-			<div class="app-picked-nav" id={app}></div>
-		{/if}
-	{/each}
 	<div class="app-previews">
 		{#each Object.keys(apps) as app}
 			{#if apps[app].filterCategory.includes(data.category)}
