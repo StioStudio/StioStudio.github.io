@@ -1,11 +1,11 @@
 .app-picker {
-    border-radius: 16px;
+	border-radius: 16px;
 	background-color: var(--a);
 	overflow-x: auto;
 	scrollbar-width: none;
 }
 .app-picker .app-picker-scroll {
-    display: flex;
+	display: flex;
 	width: max-content;
 	padding: 10px;
 	user-select: none;
@@ -25,12 +25,14 @@
 	align-items: center;
 	margin-right: 15px;
 
-	box-sizing: border-box;
+	/* box-sizing: border-box; */
 	overflow: hidden;
 }
 
 .app-picker .picked-app.add-padding {
 	padding: 13px;
+	width: calc(109px - 13px * 2);
+	height: calc(109px - 13px * 2);
 }
 
 .app-picker .picked-app img {
