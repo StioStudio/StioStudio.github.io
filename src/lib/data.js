@@ -29,6 +29,7 @@ let apps = {
 	"all-apps": (await import("./data/all-apps/import")).app,
 	"store": (await import("./data/store/import")).app,
 	"info": (await import("./data/info/import")).app,
+	"minecraft": (await import("./data/minecraft/import")).app,
 	"discord": (await import("./data/discord/import")).app,
 	"dolphin": (await import("./data/dolphin/import")).app,
 };
