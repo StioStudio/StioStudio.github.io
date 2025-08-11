@@ -1,4 +1,6 @@
 // src/lib/data.js
+
+// categories menu
 export const categories = {
 	website: {
 		name: "Website",
@@ -11,6 +13,7 @@ export const categories = {
 	},
 };
 
+// System menu
 import search_image from "$lib/assets/system-menu/search.svg";
 import profile_image from "$lib/assets/system-menu/profile.png";
 import settings_image from "$lib/assets/system-menu/settings.svg";
@@ -21,10 +24,13 @@ export const systemMenu = {
 	settings: { image: settings_image },
 };
 
-import { projects } from "./data/import";
-
-export const apps = {
-	"blob-of-life": projects["blob-of-life"],
-	store: projects.store,
-	"all-apps": projects["all-apps"],
+let apps = {
+	"blob-of-life": (await import("./data/blob-of-life/import")).app,
+	"all-apps": (await import("./data/all-apps/import")).app,
+	"store": (await import("./data/store/import")).app,
+	"info": (await import("./data/info/import")).app,
+	"discord": (await import("./data/discord/import")).app,
+	"dolphin": (await import("./data/dolphin/import")).app,
 };
+
+export {apps}

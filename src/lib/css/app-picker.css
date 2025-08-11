@@ -1,16 +1,39 @@
 .app-picker {
-    display: flex;
     border-radius: 16px;
-    background-color: var(--a);
-    padding: 10px;
+	background-color: var(--a);
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+.app-picker .app-picker-scroll {
+    display: flex;
+	width: max-content;
+	padding: 10px;
+	user-select: none;
+	-webkit-user-drag: none;
 }
 .app-picker .picked-app {
-    display: inline-flex;
-    background-color: var(--b);
-    width: 109px;
-    height: 109px;
-    margin-right: 15px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
+	display: inline-flex;
+	user-select: none;
+	-webkit-user-drag: none;
+
+	background-color: var(--b);
+	width: 109px;
+	height: 109px;
+	border-radius: 15px;
+
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+.app-picker .picked-app.add-padding {
+	padding: 13px;
+}
+
+.app-picker .picked-app img {
+	max-width: 109px;
+	max-height: 109px;
 }
