@@ -30,6 +30,7 @@
 </svelte:head>
 
 <main>
+Currently under development
 	<div class="top-bar">
 		<div class="categories">
 			{#each Object.keys(categories) as category}
